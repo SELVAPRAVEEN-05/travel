@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>landing page</title>
+        <style>
+*{
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.search {
+    margin-top: 22px;
+  font-size: 20px;
+  border: 1px solid white; 
+}
+::placeholder {
+  color: black;
+}
+.b{ 
+    background-image: url(pngtree-travel-around-the-world-travel-poster-template-picture-image_1017255.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 780px;
+}
+.title{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: 'Gill Sans';
+}
+.button {
+  align-content: center;
+  background-color: black;
+  border: none;
+  color: orangered;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin: 2px 2px;
+  cursor: pointer;
+  padding: 20px;
+}
+.button:active{
+    opacity: 0.5;
+}
+.select{
+  font-weight: bold;
+  padding: 25px;
+}
+.selectdate{
+    font-weight: bold;
+  padding: 20px;
+  font-size: 18px;
+}
+.t{
+   position: absolute;
+   top: 4%;
+   justify-content: space-evenly;
+   left: 60%;
+  border: 1px solid black;
+}
+.bor{
+    border: 1px solid black;
+  border-radius: 20px;
+  font-size: 17px;
+}
+.about{
+  width:125px;
+}
+    </style>
+    </head>
+    <body style="background-color:black;"> 
+      <input class="search" type="search" placeholder="Search...">
+      <div class="t">
+        <select name="HOME" class="bor">
+            <option value="CHENNAI">HOME</option>
+            <option value="KARUR">CONTACT US</option>
+            <option value="DINDIGUL">RATE</option>
+          </select>
+          <select name="AVIALABLE" class="bor">
+            <option value="DESTINATION">AVIALABLE</option>
+            <option value="KARUR">KARUR</option>
+            <option value="DINDIGUL">DINDIGUL</option>
+            <option value="CHENNAI">CHENNAI</option>
+          </select>
+          <select name="MOST POPULAR" class="bor">
+            <option value="DESTINATION">MOST POPULAR</option>
+            <option value="KARUR">LADAK</option>
+            <option value="DINDIGUL">MUMBAI</option>
+            <option value="CHENNAI">CHENNAI</option>
+          </select>
+          <select name="ABOUT US" class="bor about">
+            <option value="DESTINATION">ABOUT US</option>
+            <option value="KARUR">RATING</option>
+            <option value="DINDIGUL">TRAVELL PACKAGE</option>
+            <option value="CHENNAI">FEED BACK</option>
+          </select>
+         
+        </div>
+          <div class="b">
+          <p >&nbsp;&nbsp;&nbsp;<a href="">home</a>/the world explorer</p>
+          <br>
+          <H2 class="title"><b>THE WORLD EXPLORER</b></H2>
+          <br>
+          <P class="title">They say the World has seven Wonders.We think that is only the Begnning</P>
+         <br>
+          <div class="title">
+            <input type="date" class="selectdate">
+        
+          <select class="select" name="HOW MANY DAYS WANT TO TRAVEL">
+            <option value="DESTINATION">HOW MANY DAYS WANT TO TRAVEL</option>
+            <option value="KARUR">ONE DAY</option>
+            <option value="DINDIGUL">ONE WEEK</option>
+            <option value="CHENNAI">ONE MONTH</option>
+          </select>
+          <br>
+          <br>
+          <br>
+          <button class="button">LETS BEGIN</button>
+        </div>   
+    </div>
+    </body>
+</html>
